@@ -11760,3 +11760,39 @@ html {
     left: -2vw;
   }
 }
+
+
+/* gaurav */
+
+.project-image-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-image{
+  transition:cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s ease-in-out;
+}
+.project-image:hover{
+  /* transform: scale(1.5); */
+  align-self: center;
+  object-fit: cover;
+  position: absolute;
+}
+.app-image-container{
+  display:flex;
+  /* flex-direction: r; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-image-container .app-image{
+  transition:all 0.4s ease-in-out;
+  overflow: auto;
+} 
+.app-image-container .app-image:hover{
+    transform: scale(1.2);
+    /* align-self: center; */
+    object-fit: fill;
+    /* position: absolute; */
+} 
